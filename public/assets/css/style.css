@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
+
+.navbar {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-light .navbar-brand {
+    color: #333;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #007bff;
+}
+
+#navbar.scrolled {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav.mx-auto {
+    margin: 0 auto;
+}
+
+.form-inline {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin: 0;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+
+
+
+.main-navbar {
+    border-bottom: 1px solid #ccc;
+}
+
+.main-navbar .top-navbar {
+    background-color: #2874f0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-navbar .top-navbar .brand-name {
+    color: #fff;
+}
+
+.main-navbar .top-navbar .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main-navbar .top-navbar .dropdown-menu {
+    padding: 0px 0px;
+    border-radius: 0px;
+}
+
+.main-navbar .top-navbar .dropdown-menu .dropdown-item {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.main-navbar .top-navbar .dropdown-menu .dropdown-item i {
+    width: 20px;
+    text-align: center;
+    color: #2874f0;
+    font-size: 14px;
+}
+
+.main-navbar .navbar {
+    padding: 0px;
+    background-color: #ddd;
+}
+
+.main-navbar .navbar .nav-item .nav-link {
+    padding: 8px 20px;
+    color: #000;
+    font-size: 15px;
+}
+/* Custom CSS */
+.navbar .form-inline .form-control {
+    width: 100%;
+}
+
+.navbar .form-inline {
+    flex-grow: 1;
+}
+ 
+a {
+    text-decoration: none !important;
+
+}
+
+.scrollable-area {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.scrollable-area::-webkit-scrollbar {
+    width: 6px;
+    /* Width of the scrollbar */
+}
+
+.scrollable-area::-webkit-scrollbar-track {
+    background: transparent;
+    /* Track color */
+}
+
+.scrollable-area::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    /* Thumb color */
+    border-radius: 6px;
+    /* Roundness of the thumb */
+}
+
+h4 {
+    color: gray !important
+}
+
+
+.left-line hr,
+.right-line hr {
+    color: gray !important;
+    border-width: 2px;
+}
+
+.models {
+    max-height: 0;
+    overflow: hidden;
+    /* text-align: center; */
+    transition: max-height 0.2s ease-out;
+}
+
+.expanded {
+    max-height: 500px;
+    /* Adjust height as needed */ 
+    transition: max-height 0.2s ease-in;
+}
+
+.xsmax{
+    height: 50px;
+}
+
+/* Apply styles to the <p> with class "price" */
+.price {
+    color: gray !important;
+    /* text-decoration: line-through; */
+    font-weight: 300 !important;
+    font-size: 25px; 
+    /* Adding the font-size here as per your HTML */
+    font-weight: bold;
+    /* Adding font-weight here as per your HTML */
+ }
+
+/* Specific styles for the <span> within the <p> with class "price" */
+.discount {
+    color: black;
+    /* Or any color you want */
+    text-decoration: none;
+    font-weight: normal;
+    /* Or whatever weight you prefer */
+}
+
+
+
+
+.anchor:hover{
+    color: black !important;
+}
+
+.content .text span{
+    color: gray;
+}
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row.no-gutters>[class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+
+.sub-content {
+    display: flex;
+    align-items: center;
+    /* Align items vertically centered */
+}
+
+.sub-content p.material {
+    margin: 0;
+}
+
+.sub-content span.description {
+    margin-left: 40px;
+    /* Add some spacing between the elements if needed */
+}
+
+.select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center;
+    background-size: 12px;
+    padding-right: 30px;
+}
+
+ .table {
+     width: 100%;
+     table-layout: auto;
+ }
+
+ .order-list table td {
+     white-space: nowrap;
+ }
+
+ .order-list table th {
+     white-space: nowrap;
+ }
